@@ -1,2 +1,7 @@
-# CS310
-Repo for CS310 Course at Bellevie
+# CS310 C++
+
+## Contributors
+- Student: Joshua Betancourt
+- Instructor: Dr. Robert Flowers
+
+
