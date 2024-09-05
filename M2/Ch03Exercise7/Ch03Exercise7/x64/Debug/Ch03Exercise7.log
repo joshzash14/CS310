@@ -1,0 +1,4 @@
+﻿  Ch03Exercise7.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M2\Ch03Exercise7\Ch03Exercise7.cpp(66,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M2\Ch03Exercise7\Ch03Exercise7.cpp(37,11): warning C4101: 'interestRate': unreferenced local variable
+  Ch03Exercise7.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M2\Ch03Exercise7\x64\Debug\Ch03Exercise7.exe
