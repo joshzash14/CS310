@@ -33,6 +33,7 @@ int main()
     cin >> selection;
     cout << endl;
 
+    // story path based on user's decisions 
     if (selection > 2 || selection < 0) {
         selection = 3;
         selection2 = 3;
