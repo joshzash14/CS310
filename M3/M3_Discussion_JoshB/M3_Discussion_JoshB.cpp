@@ -108,7 +108,7 @@ int main()
 
 
 
-    // Display THE closing messageS for non Visual Studio IDEs
+    // Display the closing messages for non Visual Studio IDEs
     cout << "\n  Thanks for using my program!" << endl;
     cout << "\n\n  Press any key to continue ..." << endl;
 
