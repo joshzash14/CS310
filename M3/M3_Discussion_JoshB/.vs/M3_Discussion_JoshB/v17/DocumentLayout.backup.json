@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M3\\M3_Discussion_JoshB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08622D4B-82AF-4B8F-98DA-358DB95137D5}|M3_Discussion_JoshB.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M3\\M3_Discussion_JoshB\\M3_Discussion_JoshB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08622D4B-82AF-4B8F-98DA-358DB95137D5}|M3_Discussion_JoshB.vcxproj|solutionrelative:M3_Discussion_JoshB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "M3_Discussion_JoshB.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M3\\M3_Discussion_JoshB\\M3_Discussion_JoshB.cpp",
+              "RelativeDocumentMoniker": "M3_Discussion_JoshB.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M3\\M3_Discussion_JoshB\\M3_Discussion_JoshB.cpp",
+              "RelativeToolTip": "M3_Discussion_JoshB.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-13T03:47:47.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
