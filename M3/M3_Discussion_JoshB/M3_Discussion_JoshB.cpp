@@ -5,12 +5,7 @@
     Student Name: Joshua Betancourt
     File Name: M3_Discussion_JoshB.cpp
     Date: 09/12/2024
-    Description: This program is used to calculate the price a store will list an item for as well as the final price of
-                 that item after taxes. The user is asked to provide the original price of the item, how much they would
-                 like to mark up the item by, and the sales tax rate that should be applied to the item. The mark up and 
-                 tax rate are assumed to be entered as follows: 6.25% is entered as 6.25 and then converted as needed for 
-                 calculating the outputted figures.
-*/
+    Description: This program is a fun console story about being curious
 
 #include <conio.h>
 #include <iostream>
