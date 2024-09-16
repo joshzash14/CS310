@@ -9,12 +9,6 @@
          -The number of days in the billing cycle
         - The number of days payment is made before the billing cycle is complete
         - Interest rate on the card
-
-    netBalance: the balance shown in the bill
-    payment: the payment made
-    d1: the number of days in the billing cycle
-    d2:the number of days payment is made before the billing cycle
-    interest rate
 */
 
 #include <conio.h>
