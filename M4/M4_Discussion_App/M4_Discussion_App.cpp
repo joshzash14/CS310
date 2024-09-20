@@ -5,9 +5,8 @@
     Student Name: Joshua Betancourt
     File Name: M4_Discussion_App.cpp
     Date: 09/19/2024
-    Description: This program is used to let an author understand the best royalty for publishing their novel based on 3 fictional
-        options for publishing royalty's.
-
+    Description: This program is a fictional gambling game where you attempt to make it as close as possible
+                 to the end of a hall of random length in order to multiply an amount you wager
 */
 
 #include <conio.h>
