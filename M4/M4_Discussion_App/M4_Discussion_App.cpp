@@ -1,6 +1,3 @@
-// M4_Discussion_App.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 /*
     Student Name: Joshua Betancourt
     File Name: M4_Discussion_App.cpp
@@ -123,7 +120,7 @@ int main()
          << "\n  The hallway was " << STARTING_STEPS << " steps long."
          << endl;
   
-    // Display THE closing messageS for non Visual Studio IDEs
+    // Display the closing messages for non Visual Studio IDEs
     cout << "\n  Thanks for using my program!" << endl;
     cout << "\n\n  Press any key to continue ..." << endl;
 
