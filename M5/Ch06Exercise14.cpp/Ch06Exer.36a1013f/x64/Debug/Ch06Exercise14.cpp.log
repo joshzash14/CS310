@@ -1,0 +1,4 @@
+﻿  Ch06Exercise14.cpp.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Ch06Exercise14.cpp\Ch06Exercise14.cpp.cpp(84,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Ch06Exercise14.cpp\Ch06Exercise14.cpp.cpp(87,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Ch06Exercise14.cpp.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Ch06Exercise14.cpp\x64\Debug\Ch06Exercise14.cpp.exe

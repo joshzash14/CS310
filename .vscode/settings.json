@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "ios": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "xstring": "cpp"
     },
     "cSpell.words": [
         "Betancourt"
