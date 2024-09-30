@@ -1,0 +1,6 @@
+﻿  Discussion_Aidan_Debugged.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Discussion_Aidan_Debugged\Discussion_Aidan_Debugged.cpp(48,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Discussion_Aidan_Debugged\Discussion_Aidan_Debugged.cpp(49,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Discussion_Aidan_Debugged\Discussion_Aidan_Debugged.cpp(54,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Discussion_Aidan_Debugged\Discussion_Aidan_Debugged.cpp(55,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Discussion_Aidan_Debugged.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M5\Discussion_Aidan_Debugged\x64\Debug\Discussion_Aidan_Debugged.exe
