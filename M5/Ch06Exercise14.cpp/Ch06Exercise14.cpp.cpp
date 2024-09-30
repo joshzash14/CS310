@@ -47,7 +47,7 @@ int main()
 
     std::cout << "\n  The charge for today's service is: $" << consultingFee << ".";
 
-    // Display THE closing messageS for non Visual Studio IDEs
+    // Display the closing messages for non Visual Studio IDEs
     std::cout << "\n  Thanks for using my program!" << std::endl;
     std::cout << "\n\n  Press any key to continue ..." << std::endl;
 
@@ -55,7 +55,6 @@ int main()
 
     return 0;  // exit code
 }
-
 
 float calculateBillingAmount (float hourlyRate, int consultingTime, bool lowIncome) {
     // setting fee to zero as there are only two scenario's in which the fee is not zero
@@ -85,7 +84,6 @@ bool lowIncomeInputToBoolean () {
          << "\n  Answer: ";
     std::cin >> updatedInput;
     std::cout << std::endl; 
-
 
     while (!validInput) {
     if (updatedInput == "y" || updatedInput == "Y") {
