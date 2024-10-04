@@ -2,87 +2,92 @@
     Student Name: Joshua Betancourt
     File Name: M6_Discussion_JoshB.cpp
     Date: 10/03/2024
-    Description: This program is used to identify your birth month. User provides the number representing a calendar month.
+    Description: This program simulates taking damage in a game from an ogre.
 */
 
-#include <conio.h>
-#include <iostream>
-#include <iomanip>
-#include <cstdlib>  // library to help with random number generation found at https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
-using namespace std;
+#include <conio.h>              // needed for getch()
+#include <iostream>             // needed for cout, cin
+#include <string>               // would be needed for string input/input validation
+#include <cstdlib>              // library to help with random number generation found at https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
 
-int captureNumericInput (STRING message) {
-    int userInput;
-    cout << message;
-    cin >> userInput;
-    return userInput;
-}
+// creating enum for health status'
+enum { Death = 0, Low = 25, Medium = 70, High = 99, Full = 100} playerHealth;
 
-string identifyBirthMonth(integer providedHealth, ) {
-    string month;
-    switch (providedNumber)
-    {
-    case 1:
-    case 2:
-    case 12:
-        break;
-    case 3:
-    case 4:
-    case 5:
-        month = "May";
-        break;
-    case 6:
-    case 7:
-    case 8:
-        month = "August";
-        break;
-    case 9:
-    case 10:
-    case 11:
-        month = "November";
-        break;
-    default:
-        month = "out of range";
-        break;
-    }
+// declaring functions used in this code
+std::string calculateHealthStatusMessage(int providedHealth);
+int calculateDamage();
 
-    return month;
-}
 
 int main()
-{
-    cout << fixed << setprecision(2); // for setting the decimal precision
-    locale loc(""); // for the thousands separator 
-    cout.imbue(loc);
-   
-    // used to create seed/starting point for random number generator (rand() function call later in code)
-    srand(time(0)); 
+{  
+    // initializing variables used with main function
+    int playerHealth = 100;
+    int numberOfHits;
+    std::string healthStatusMessage = calculateHealthStatusMessage(playerHealth);
 
-    // setting number of steps before losing
-    float damage_taken = rand() % 100 + 1;
+    // welcoming user to game and capturing input
+    std::cout << "\n\n  Welcome, lets simulate your luck when being attacked by an Ogre." 
+         << "\n  You are starting the game at " 
+         << healthStatusMessage << " You have " << playerHealth << " health."
+         << "\n  How many attacked would you like to take? ";
+    std::cin >> numberOfHits;
+    std::cout << std::endl;
 
-    enum { Death = 0, Low = 25, Medium = 70, Full = 100} playerHealth;
-    string month;
-    int providedNumber;
-
-    cout << "\n\n  Welcome, let me identify your birth month." << endl;
-
-    providedNumber = captureNumericInput("  Please provide the number representing your birth month: ");
-    month = identifyBirthMonth(providedNumber);
-
-    if (month != "out of range") {
-        cout << "\n  Your birth month is " << month << endl;
-    } else {
-        cout << "\n  Sorry there is not a calendar month that aligns with your input." << endl;
+    // loop to reduce player health
+    for (int hits = 0; hits < numberOfHits; hits++)
+    {
+        playerHealth -= calculateDamage(); 
     };
+
+    // determining the players health status
+    healthStatusMessage = calculateHealthStatusMessage(playerHealth);
+
+    // informing user of the results of the simulated attack
+    std::cout << "\n  After taking " 
+         << numberOfHits 
+         << " hits from the Ogre... " 
+         << healthStatusMessage;
+
+    if (playerHealth > 0) {
+        std::cout << "\n  You are currently at " << playerHealth << " health." << std::endl;
+    }
     
     // Display THE closing messageS for non Visual Studio IDEs
-    cout << "\n  Thanks for using my program!" << endl;
-    cout << "\n\n  Press any key to continue ..." << endl;
+    std::cout << "\n  Thanks for using my program!" << std::endl;
+    std::cout << "\n\n  Press any key to continue ..." << std::endl;
 
     _getch();  // halt processing 
 
     return 0;  // exit code
 }
 
+std::string calculateHealthStatusMessage(int providedHealth ) {
+    // variable for health status
+    std::string healthStatusMessage;
+
+    // logic to determine current health status message
+    if (providedHealth < Death) {
+        healthStatusMessage = "Well.... Sorry you died!";
+    } else if (providedHealth < Low ) {
+        healthStatusMessage =  "you are at low health!";
+    } else if (providedHealth < Medium) {
+        healthStatusMessage =  "you are at medium health!";
+    } else if (providedHealth < High) {
+        healthStatusMessage =  "you are at high health!";
+    } else if (providedHealth == Full) {
+        healthStatusMessage =  "you are at full health.";
+    };
+
+    return healthStatusMessage;
+}
+
+int calculateDamage() {
+    // used to create seed/starting point for random number generator (rand() function call later in code)
+    srand(time(0)); 
+
+    // determine random damage from 0-99
+    float damageTaken = rand() % 100;
+
+    return damageTaken;
+}
 

@@ -1,0 +1,5 @@
+﻿  M6_Discussion_JoshB.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M6\M6_Discussion_JoshB\M6_Discussion_JoshB.cpp(76,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M6\M6_Discussion_JoshB\M6_Discussion_JoshB.cpp(79,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M6\M6_Discussion_JoshB\M6_Discussion_JoshB.cpp(81,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  M6_Discussion_JoshB.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M6\M6_Discussion_JoshB\x64\Debug\M6_Discussion_JoshB.exe
