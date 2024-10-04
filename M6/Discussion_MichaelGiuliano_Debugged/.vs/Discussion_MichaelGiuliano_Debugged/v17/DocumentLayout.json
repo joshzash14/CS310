@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M6\\Discussion_MichaelGiuliano_Debugged\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C330FC3-B0D8-4DBE-93FC-4DBFA78C3CE5}|Discussion_MichaelGiuliano_Debugged.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M6\\Discussion_MichaelGiuliano_Debugged\\Discussion_MichaelGiuliano_Debugged.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C330FC3-B0D8-4DBE-93FC-4DBFA78C3CE5}|Discussion_MichaelGiuliano_Debugged.vcxproj|solutionrelative:Discussion_MichaelGiuliano_Debugged.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Discussion_MichaelGiuliano_Debugged.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M6\\Discussion_MichaelGiuliano_Debugged\\Discussion_MichaelGiuliano_Debugged.cpp",
+              "RelativeDocumentMoniker": "Discussion_MichaelGiuliano_Debugged.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M6\\Discussion_MichaelGiuliano_Debugged\\Discussion_MichaelGiuliano_Debugged.cpp",
+              "RelativeToolTip": "Discussion_MichaelGiuliano_Debugged.cpp",
+              "ViewState": "AgIAANwAAAAAAAAAAAAwPYwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T06:02:37.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
