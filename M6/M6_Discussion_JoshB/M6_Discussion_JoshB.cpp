@@ -11,12 +11,11 @@
 #include <cstdlib>              // library to help with random number generation found at https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
 
 // creating enum for health status'
-enum { Death = 0, Low = 25, Medium = 70, High = 99, Full = 100} playerHealth;
+enum ("Death" = 0, "Low" = 25, "Medium" = 70, "High" = 99, "Full" = 100) playerHealth;
 
 // declaring functions used in this code
 std::string calculateHealthStatusMessage(int providedHealth);
 int calculateDamage();
-
 
 int main()
 {  
@@ -66,7 +65,7 @@ std::string calculateHealthStatusMessage(int providedHealth ) {
     std::string healthStatusMessage;
 
     // logic to determine current health status message
-    if (providedHealth < Death) {
+    if (providedHealth < death) {
         healthStatusMessage = "Well.... Sorry you died!";
     } else if (providedHealth < Low ) {
         healthStatusMessage =  "you are at low health!";
@@ -81,7 +80,7 @@ std::string calculateHealthStatusMessage(int providedHealth ) {
     return healthStatusMessage;
 }
 
-int calculateDamage() {
+void calculateDamage() {
     // used to create seed/starting point for random number generator (rand() function call later in code)
     srand(time(0)); 
 
