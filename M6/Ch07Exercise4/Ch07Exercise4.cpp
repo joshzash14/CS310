@@ -5,13 +5,6 @@
     Date: 10/07/2024
     Description: This program is used to remove all vowels from a provided string.
         Input: any string by user
-
- 
-Write a program that prompts the user to input a string. 
-The program then uses the function substr to remove all the vowels from the string. 
-For example, if str = "There", then after removing all the vowels, str = "Thr".
-After removing all the vowels, output the string.
-Your program must contain a function to remove all the vowels and a function to determine whether a character is a vowel.
 */
 
 #include <conio.h>              // needed for getch()
@@ -19,12 +12,12 @@ Your program must contain a function to remove all the vowels and a function to 
 #include <string>               // needed for string input/input validation
 #include <regex>                // needed to use regex for validation
 
-std::string removeVowels(std::string providedString);
+bool isVowel(char letterToCheck);
 std::string captureStringInput();
+std::string removeVowels(std::string providedString);
 
 int main()
 {
-
     // creating local variables for program
     std::string userInput;
     std::string updatedString;
@@ -36,10 +29,14 @@ int main()
     userInput = captureStringInput();
     updatedString = removeVowels(userInput);
 
-    std::cout << "\n  Your updated string without any vowels is: " << updatedString << ".";
+    if (updatedString.length() > 0) {
+        std::cout << "\n  Your updated string without any vowels is: " << updatedString << ".";
+    } else {
+        std::cout << "\n  Your provided string was only vowels.";
+    }
 
     // Display the closing messages for non Visual Studio IDEs
-    std::cout << "\n  Thanks for using my program!" << std::endl;
+    std::cout << "\n\n  Thanks for using my program!" << std::endl;
     std::cout << "\n\n  Press any key to continue ..." << std::endl;
 
     _getch();  // halt processing 
@@ -50,7 +47,15 @@ int main()
 // Scrapes vowels from provided string
 std::string removeVowels(std::string providedString) {
     std::string formattedString;
+    int length = providedString.length();
 
+    for (int i = 0; i < length; i++)
+    {
+        if (!isVowel(providedString[i])) {
+            formattedString += providedString[i];
+        }
+    }
+    
     return formattedString;
 };
 
@@ -66,18 +71,38 @@ std::string captureStringInput() {
 
     std::cout << "\n  Please provide string (word) without any spaces, numbers, or special characters: ";
     std::cin >> updatedInput;
-    std::cout << std::endl; 
 
     while (!validInput) {
     if (std::regex_match(updatedInput, stringRegex)) {
         validInput = true;
         break;
     } else
-        std::cout << "\n The provided input was not valid. Please try again."
+        std::cout << "\n  The provided input was not valid. Please try again."
                   << "\n\n  Please ensure your string does not have any spaces, numbers or special characters: ";
         std::cin >> updatedInput;
-        std::cout << std::endl; 
     } 
 
     return updatedInput;
+}
+
+// used from C++ reading page 510
+bool isVowel(char letterToCheck) {
+    switch (letterToCheck)
+    {
+    case 'A':
+    case 'E':
+    case 'I':
+    case 'O':
+    case 'U':
+    case 'Y':
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+    case 'y':
+        return true;
+    default:
+        return false;
+    }
 }
