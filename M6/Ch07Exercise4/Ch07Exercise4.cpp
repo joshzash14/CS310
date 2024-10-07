@@ -52,7 +52,7 @@ std::string removeVowels(std::string providedString) {
     for (int i = 0; i < length; i++)
     {
         if (!isVowel(providedString[i])) {
-            formattedString += providedString[i];
+            formattedString += providedString.substr(i,1);
         }
     }
     
