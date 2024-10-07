@@ -17,6 +17,7 @@ Your program must contain a function to remove all the vowels and a function to 
 #include <conio.h>              // needed for getch()
 #include <iostream>             // needed for cout, cin
 #include <string>               // needed for string input/input validation
+#include <regex>                // needed to use regex for validation
 
 std::string removeVowels(std::string providedString);
 std::string captureStringInput();
@@ -58,25 +59,22 @@ std::string captureStringInput() {
     std::string updatedInput;
     bool validInput = false;
 
+    // used for regex generation: https://regex101.com/r/FFKEcq/1
+    // /^[A-Za-z]+$/gm  <- will only match if string one word without spaces, numbers or special characters
+
+    const std::regex stringRegex("^[A-Za-z]+$"); // used following resource to learn how to use this: https://en.cppreference.com/w/cpp/regex/regex_match
+
     std::cout << "\n  Please provide string (word) without any spaces, numbers, or special characters: ";
     std::cin >> updatedInput;
     std::cout << std::endl; 
 
     while (!validInput) {
-        updatedInput.
-    if (updatedInput == "y" || updatedInput == "Y") {
-        validInput = true;
-        lowIncomeBoolean = true;
-        break;
-    } else if (updatedInput == "n" || updatedInput == "N") {
+    if (std::regex_match(updatedInput, stringRegex)) {
         validInput = true;
         break;
     } else
         std::cout << "\n The provided input was not valid. Please try again."
-                  << "\n\n  Please indicate if the customer is a low income earner: "
-                  << "\n    (Y) If earned income for this year is at or under $25,000"
-                  << "\n    (N) If earned income for this year is at or above $25,001"
-                  << "\n  Answer: ";
+                  << "\n\n  Please ensure your string does not have any spaces, numbers or special characters: ";
         std::cin >> updatedInput;
         std::cout << std::endl; 
     } 
