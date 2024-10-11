@@ -1,0 +1,3 @@
+﻿  M7_Discussion_JoshB.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\M7_Discussion_JoshB\M7_Discussion_JoshB.cpp(127,26): warning C4101: 'messageStr': unreferenced local variable
+  M7_Discussion_JoshB.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\M7_Discussion_JoshB\x64\Debug\M7_Discussion_JoshB.exe

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Josh B\\source\\repos\\M7_Discussion_JoshB\\",
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\M7_Discussion_JoshB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{639ADA0F-3E68-442D-AF70-8C9EB659E5F0}|M7_Discussion_JoshB.vcxproj|C:\\Users\\Josh B\\source\\repos\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{639ADA0F-3E68-442D-AF70-8C9EB659E5F0}|M7_Discussion_JoshB.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{639ADA0F-3E68-442D-AF70-8C9EB659E5F0}|M7_Discussion_JoshB.vcxproj|solutionrelative:M7_Discussion_JoshB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "M7_Discussion_JoshB.cpp",
-              "DocumentMoniker": "C:\\Users\\Josh B\\source\\repos\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp",
               "RelativeDocumentMoniker": "M7_Discussion_JoshB.cpp",
-              "ToolTip": "C:\\Users\\Josh B\\source\\repos\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\M7_Discussion_JoshB\\M7_Discussion_JoshB.cpp",
               "RelativeToolTip": "M7_Discussion_JoshB.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-11T04:31:20.405Z",
               "EditorCaption": ""
