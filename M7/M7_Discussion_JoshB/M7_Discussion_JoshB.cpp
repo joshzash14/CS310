@@ -24,8 +24,8 @@ int main()
     int providedWinningNumber;
    
     // providing default values for these arrays to reduce complexity of random number generation
-    int winningArray[NUMBER_OF_ROWS] = { 15, 65, 84, 2, 33};
-    int scratchTicketNumbers[NUMBER_OF_ROWS][NUMBER_OF_COLUMNS] = {{34, 94, 34, 56, 8}, {6, 48, 7, 32, 8}, {4, 89, 32, 72, 14}, {8, 64, 34, 28, 64}, {6, 18, 5, 87, 22}};
+    int winningArray(NUMBER_OF_ROWS) = { 15, 65, 84, 2, 33};
+    int scratchTicketNumbers[NUMBER_OF_ROWS][NUMBER_OF_COLUMNS] = ({34, 94, 34, 56, 8}, {6, 48, 7, 32, 8}, {4, 89, 32, 72, 14}, {8, 64, 34, 28, 64}, {6, 18, 5, 87, 22});
 
     // Displaying intro to application.
     std::cout << "\n\n  Lets play the lottery!"
@@ -85,7 +85,7 @@ int main()
 }
 
 // function to identify winner, need to pass scratch ticket array and user inputted number
-bool identifyIfWinner(int userNumber, int scratchTicketNumbers[5][5]) {
+bool identifyIfWinner(int userNumber, int scratchTicketNumbers[5]) {
     bool winner = false;
 
     // sum each row and check if any winner
@@ -94,7 +94,7 @@ bool identifyIfWinner(int userNumber, int scratchTicketNumbers[5][5]) {
         int sum = 0;
         for (int column = 0; column < 5; column++)
         {
-            sum = sum + scratchTicketNumbers[row][column];
+            sum = sum + scratchTicketNumbers(row)(column);
     }
 
     if (sum == userNumber) {
