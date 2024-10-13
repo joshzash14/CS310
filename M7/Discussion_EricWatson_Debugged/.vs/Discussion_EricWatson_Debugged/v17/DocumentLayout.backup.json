@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\Discussion_EricWatson_Debugged\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35875E4F-A8DB-41A0-B902-0551B2C68C0A}|Discussion_EricWatson_Debugged.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\Discussion_EricWatson_Debugged\\Discussion_EricWatson_Debugged.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35875E4F-A8DB-41A0-B902-0551B2C68C0A}|Discussion_EricWatson_Debugged.vcxproj|solutionrelative:Discussion_EricWatson_Debugged.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Discussion_EricWatson_Debugged.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\Discussion_EricWatson_Debugged\\Discussion_EricWatson_Debugged.cpp",
+              "RelativeDocumentMoniker": "Discussion_EricWatson_Debugged.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M7\\Discussion_EricWatson_Debugged\\Discussion_EricWatson_Debugged.cpp",
+              "RelativeToolTip": "Discussion_EricWatson_Debugged.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-13T16:05:22.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

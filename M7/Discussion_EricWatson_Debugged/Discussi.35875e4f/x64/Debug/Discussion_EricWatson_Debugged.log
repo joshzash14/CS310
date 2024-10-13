@@ -1,0 +1,3 @@
+﻿  Discussion_EricWatson_Debugged.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\Discussion_EricWatson_Debugged\Discussion_EricWatson_Debugged.cpp(12,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Discussion_EricWatson_Debugged.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\Discussion_EricWatson_Debugged\x64\Debug\Discussion_EricWatson_Debugged.exe
