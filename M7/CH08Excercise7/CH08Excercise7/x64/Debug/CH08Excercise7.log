@@ -1,0 +1,4 @@
+﻿  CH08Excercise7.cpp
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\CH08Excercise7\CH08Excercise7.cpp(63,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\CH08Excercise7\CH08Excercise7.cpp(139,26): warning C4101: 'messageStr': unreferenced local variable
+  CH08Excercise7.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M7\CH08Excercise7\x64\Debug\CH08Excercise7.exe
