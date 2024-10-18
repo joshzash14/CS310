@@ -12,7 +12,7 @@
 #include <regex>                // needed to use regex for validation
 
 // Initializing Manufacturer Class
-class carManufacturer
+strut carManufacturer
 {
 private:
    std::string manufacturerName;
@@ -26,19 +26,19 @@ public:
 };
 
 // Defining carManufacturer functions/methods
-void carManufacturer::setManufacturerName(std::string providedName)
+void setManufacturerName(std::string providedName)
 {
     manufacturerName = providedName;
 };
-void carManufacturer::setManufacturerOrigin(std::string providedOrigin)
+void setManufacturerOrigin(std::string providedOrigin)
 {
     manufacturerOrigin = providedOrigin;
 };
-std::string carManufacturer::getManufacturerName()
+std::string getManufacturerName()
 {
     return manufacturerName;
 };
-std::string carManufacturer::getManufacturerOrigin()
+std::string getManufacturerOrigin()
 {
     return manufacturerOrigin;
 };
@@ -145,13 +145,13 @@ int main()
     providedManufacturerName = captureStringInput();
     std::cout << std::endl;
 
-    newManufacturer.setManufacturerName(providedManufacturerName);
+    newManufacturer.setManufacturerName = providedManufacturerName;
 
     std::cout << "\n  And where will you company be based out of?";
     providedManufacturerOrigin = captureStringInput();
     std::cout << std::endl;
 
-    newManufacturer.setManufacturerOrigin(providedManufacturerOrigin);
+    newManufacturer.setManufacturerOrigin = providedManufacturerOrigin;
 
     // creating hypothetical car
     newCarModel.setCarName("Fabuloso");
