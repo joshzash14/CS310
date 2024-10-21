@@ -56,7 +56,8 @@ private:
     double age;
 
 public:
-    void setCarName(std::string providedName);
+    
+    
     void setCarTrim(std::string providedTrim);
     void setCarTransmissionType(std::string providedTransmissionType);
     void setCarDrivetrain(std::string providedDrivetrain);

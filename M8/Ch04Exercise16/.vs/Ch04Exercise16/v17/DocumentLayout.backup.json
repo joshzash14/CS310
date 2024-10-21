@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M8\\Ch04Exercise16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{051B58E0-5270-4281-BE4C-5322DFD5F734}|Ch04Exercise16.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M8\\Ch04Exercise16\\Ch04Exercise16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{051B58E0-5270-4281-BE4C-5322DFD5F734}|Ch04Exercise16.vcxproj|solutionrelative:Ch04Exercise16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ch04Exercise16.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M8\\Ch04Exercise16\\Ch04Exercise16.cpp",
+              "RelativeDocumentMoniker": "Ch04Exercise16.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M8\\Ch04Exercise16\\Ch04Exercise16.cpp",
+              "RelativeToolTip": "Ch04Exercise16.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T01:35:20.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
