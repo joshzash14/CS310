@@ -1,6 +1,2 @@
 ﻿  Ch04Exercise16.cpp
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\Ch04Exercise16.cpp(57,1): error C4716: 'bankAccount::getAccountNumber': must return a value
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\Ch04Exercise16.cpp(60,1): error C4716: 'bankAccount::getInterestRate': must return a value
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\Ch04Exercise16.cpp(58,1): error C4716: 'bankAccount::getAccountType': must return a value
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\Ch04Exercise16.cpp(56,1): error C4716: 'bankAccount::getAccountHolderName': must return a value
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\Ch04Exercise16.cpp(59,1): error C4716: 'bankAccount::getAccountBalance': must return a value
+  Ch04Exercise16.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M8\Ch04Exercise16\x64\Debug\Ch04Exercise16.exe
