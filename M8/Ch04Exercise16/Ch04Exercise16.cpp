@@ -193,9 +193,7 @@ int main()
     std::cout << "\n\n  Here is how much interest can accrue on Josh's account this year: $" 
               << activeAccounts[9].calculateYearlyInterestAccrued(activeAccounts[9].getAccountBalance(), activeAccounts[9].getInterestRate());
 
-    // loop through accounts and display some information right?? - maybe allow creation and loop through information existed
-
-     // Display the closing messages for non Visual Studio IDEs
+    // Display the closing messages for non Visual Studio IDEs
     std::cout << "\n\n  Thanks for using my program!" << std::endl;
     std::cout << "\n\n  Press any key to continue ..." << std::endl;
 
