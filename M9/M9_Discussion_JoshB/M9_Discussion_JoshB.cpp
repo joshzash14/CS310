@@ -104,8 +104,6 @@ double SportsCar::getZeroToSixty()
     return zeroToSixtyTime;
 }
 SportsCar::~SportsCar()
-{
-}
 
 
 // creating truck class
@@ -117,7 +115,7 @@ public:
 
     // class constructor
     Truck(std::string man, std::string mod, int yr, int capacity, int wght)
-        : Vehicle(man, mod, yr), towingCapacity(capacity), weight(wght)
+        :: Vehicle(man, mod, yr), towingCapacity(capacity), weight(wght)
         {
         }
 
@@ -162,14 +160,14 @@ int main()
     // outputting vehicle information
     std::cout << "\n  The car created is a " << coolCar.getYear() 
               << " " << coolCar.getManufacturer() 
-              << " " << coolCar.getModel() << ". \n  It has " << coolCar.getHorsePower() 
+              << " " << coolCar.getModel() << ". \n  It has " << coolCar.setHorsePower() 
               << " horsepower and goes 0-60 in " << coolCar.getZeroToSixty() << " seconds!"
               << std::endl;
     
     std::cout << "\n  The truck created is a " << workingTruck.getYear() 
            << " " << workingTruck.getManufacturer() 
            << " " << workingTruck.getModel() << ". \n  It has a towing capacity of " << workingTruck.getTowingCapacity() 
-           << " lbs and weighs a whopping " << workingTruck.getWeight() << " pounds!"
+           << " lbs and weighs a whopping " << workingTruck.getWeight << " pounds!"
            << std::endl; 
 
 ;
