@@ -25,8 +25,10 @@ int main()
     std::cout << "\n\n  Welcome to my program."
               << "\n  I'll be outputting information about a car struct I've made using a pointer. \n";
 
-    carType* fancyCar = new carType;
+    // initializing pointer to carType struct
+    carType* fancyCar;
 
+    // adding details about the car
     (*fancyCar).make = "uber fance";
     (*fancyCar).model = "fancy pants";
     (*fancyCar).color = "orange";
@@ -35,11 +37,12 @@ int main()
 
 
     std::cout << "\n  Let's look at my car!"
-              << "\n  I have here a " << (*fancyCar).year
-              << " " << (*fancyCar).make << " " << (*fancyCar).model
-              << "\n  This puppy is brand new and only has " <<  (*fancyCar).mileage 
+              << "\n  I have here a " << *fancyCar.year
+              << " " << *fancyCar.make << " " << *fancyCar.model
+              << "\n  This puppy is brand new and only has " <<  *fancyCar.mileage 
               << " miles!";
 
+    // removing fancyCar from memory
     delete fancyCar;
 
     // Display the closing messages for non Visual Studio IDEs
