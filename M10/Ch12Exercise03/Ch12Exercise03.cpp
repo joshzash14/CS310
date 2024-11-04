@@ -64,15 +64,15 @@ int main()
     // output all data and then winner of the election is winner
     std::cout << "\n"
               << std::setw(20) << "Name"
-              << std::setw(15) << "Votes"
-              << std::setw(10) << "Percentage"; 
+              << std::setw(20) << "Votes"
+              << std::setw(20) << "Percentage"; 
 
     for (int i = 0; i < numberOfCandidates; i++)
     {
         std::cout << "\n"
                   << std::setw(20) << candidateArray[i]
-                  << std::setw(15) << votesArray[i]
-                  << std::setw(10) << percentageArray[i] << "%";
+                  << std::setw(20) << votesArray[i]
+                  << std::setw(20) << percentageArray[i] << "%";
     }
     
     std::cout << "\n\n  The winner of this election is " << candidateArray[winnerIndex];

@@ -1,4 +1,4 @@
 ﻿  Ch12Exercise03.cpp
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M10\Ch12Exercise03\Ch12Exercise03.cpp(62,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M10\Ch12Exercise03\Ch12Exercise03.cpp(138,26): warning C4101: 'messageStr': unreferenced local variable
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M10\Ch12Exercise03\Ch12Exercise03.cpp(58,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M10\Ch12Exercise03\Ch12Exercise03.cpp(134,26): warning C4101: 'messageStr': unreferenced local variable
   Ch12Exercise03.vcxproj -> C:\Users\Josh B\Documents\Bellevue\Intro_to_C++\CS310\M10\Ch12Exercise03\x64\Debug\Ch12Exercise03.exe
