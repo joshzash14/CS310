@@ -1,20 +1,63 @@
-// Discussion_MaxJankowski_Debugged.cpp.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+    Student Name: Joshua Betancourt
+    File Name: Discussion_MaxJankowski_Debugged.cpp
+    Date: 11/3/2024
+    Description: Debugged version of simple program to generate and manage a character in a roleplaying game provided by Max Jankowski
+*/
+
+//Simple program to generate and manage a character in a roleplaying game
+
 
 #include <iostream>
+#include <string>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+//structure to represent player character 
+struct Character {
+    string name;
+    int hitPoints;
+    int skill;
+};
+
+//Function to assign attributes/ stats
+void createCharacter(Character* character, const string& name, int hitPoints, int skill) {
+    character->name = name;
+    character->hitPoints = hitPoints;
+    character->skill = skill;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void displayCharacter(const Character* character) { //function to display character info
+    cout << "Character Name: " << character->name << endl;
+    cout << "Hit Points: " << character->hitPoints << endl;
+    cout << "Skill Level: " << character->skill << endl;
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+void takeDamage(Character* character, int damage) { //Simulating damage and subtracting hit points
+    character->hitPoints = damage;
+    if (character->hitPoints < 0) character->hitPoints = 0;
+    cout << character->name << " took " << damage << " damage! Health now at " << character->hitPoints << "." << endl;
+}
+
+int main() {
+    // allocation of memory for an instance of character
+    Character* hero(new Character);
+
+    // creating a character and listing attributes 
+    createCharacter(hero, "Tom the Not So Timid", 68, 10);
+
+    // disabling info using displayCharacter function
+    cout << "Character Profile:" << endl;
+    displayCharacter(hero);
+    
+    // call to function for taking damage 
+    takeDamage(hero, 20);
+    
+    // displaying updated stats
+    cout << "\nUpdated Character Profile:" << endl;
+    displayCharacter(hero);
+ 
+    delete hero;
+
+    return 0;
+}
