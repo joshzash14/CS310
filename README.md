@@ -16,6 +16,6 @@
 - M7: M7_Discussion_JoshB.cpp, Discussion_EricWatson_Debugged.cpp, CH08Excercise7.cpp
 - M8: M8_Discussion_JoshB.cpp, Discussion_Maksymilian_Debugged.cpp, Ch04Exercise16.cpp
 - M9: M9_Discussion_JoshB.cpp, Discussion_MaxJankowski_Debugged.cpp, Ch11Exercise13.cpp
-- M10: M10_Discussion_JoshB.cpp, response, assignment
+- M10: M10_Discussion_JoshB.cpp, Discussion_MaxJankowski_Debugged.cpp, Ch12Exercise03.cpp
 - M11: M11_Discussion_JoshB.cpp, response, assignment
 - M12: M12_Discussion_JoshB.cpp, response, assignment

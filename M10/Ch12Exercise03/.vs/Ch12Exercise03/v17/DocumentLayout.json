@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M10\\Ch12Exercise03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E47E9FE-F45D-4F63-B691-E430DC78A54A}|Ch12Exercise03.vcxproj|C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M10\\Ch12Exercise03\\Ch12Exercise03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E47E9FE-F45D-4F63-B691-E430DC78A54A}|Ch12Exercise03.vcxproj|solutionrelative:Ch12Exercise03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ch12Exercise03.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M10\\Ch12Exercise03\\Ch12Exercise03.cpp",
+              "RelativeDocumentMoniker": "Ch12Exercise03.cpp",
+              "ToolTip": "C:\\Users\\Josh B\\Documents\\Bellevue\\Intro_to_C\u002B\u002B\\CS310\\M10\\Ch12Exercise03\\Ch12Exercise03.cpp",
+              "RelativeToolTip": "Ch12Exercise03.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T05:42:19.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
