@@ -1,13 +1,9 @@
-// Ch12Exercise03.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// Redo Programming Exercise 7 of Chapter 8 using dynamic arrays. You must ask the user for the number of candidates and then create the appropriate arrays to hold the data.
-//
-
 /*
     Student Name: Joshua Betancourt
-    File Name: CH08Excercise7.cpp
-    Date: 10/13 /2024
-    Description: This program is used to determine the winner of an election
-        Inputs: names and votes for 5 candidates
+    File Name: Ch12Exercise03.cpp
+    Date: 11/04/2024
+    Description: This program is used to determine the winner of an election (Redo Programming Exercise 7 of Chapter 8 but using dynamic arrays.)
+        Inputs: names and votes for user defined number of candidates
         Output: All candidate names, votes for each candidate and their percentage of votes followed by the winner of the election.
     Future optimization: Currently if two or more candidates have the same # of votes there is no logic for determining tie
 */
