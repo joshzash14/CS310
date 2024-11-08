@@ -2,35 +2,36 @@
     Student Name: Joshua Betancourt
     File Name: M11_Discussion_JoshB.cpp
     Date: 11/08/2024
-    Description: This program uses a template and has errors within it for our weekly discussion post.
+    Description: This program uses a template class and has errors within it for our weekly discussion post.
 */
 
 #include <conio.h>              // needed for getch()
 #include <iostream>             // needed for cout, cin
-#include <iomanip>              // needed for setw 
-#include <string>               // needed for string input/input validation
-#include <regex>                // needed to use regex for validation
-
+#include <string>               // needed for string input
 #include <iostream>
 
+// create Item template class
 template <class elemType>
 class Items
 {
     private:
         int maxLength;
         int length;
-        elemType *itemArray;
+        Items *itemArray;
     public:
-        void addItem(elemType providedItem);
+        // instantiating class methods
+        void addItem(std::string providedItem);
         void printItems();
         ~Items();
+        // constructor
         Items(int arrayLength = 5) : maxLength(arrayLength), length(0)
         {
             itemArray = new elemType[maxLength];
         }
 };
+// defining class methods
 template <class elemType>
-void Items<elemType>::addItem(elemType providedItem)
+void Items<elemType>::addItem(std::string providedItem)
 {   
     itemArray[length] = providedItem;
     length++;
@@ -59,9 +60,11 @@ int main()
               << "\n  Once created I will output the items in my array"
               << std::endl;
 
-    Items <std::string> colors;
+    // creating two instances of my class. One using default constructor value
+    Items <std::string> colors();
     Items <int> numbers(3);
 
+    // adding items to my classes
     colors.addItem("blue");
     colors.addItem("yellow");
     colors.addItem("silver");
@@ -71,6 +74,7 @@ int main()
     numbers.addItem(4);
     numbers.addItem(15);
 
+    // outputting contents of my classes
     std::cout << "\n  The colors I have stored are: ";
     colors.printItems();
 
