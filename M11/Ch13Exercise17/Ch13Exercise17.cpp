@@ -1,10 +1,7 @@
-// Ch13Exercise17.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 /*
     Student Name: Joshua Betancourt
-    File Name: Ch12Exercise03.cpp
-    Date: 11/04/2024
+    File Name: Ch13Exercise17.cpp
+    Date: 11/08/2024
     Description: This program uses C++11 Random Number Generator to generate 25 random numbers
                  and them output to the terminal.
 */
